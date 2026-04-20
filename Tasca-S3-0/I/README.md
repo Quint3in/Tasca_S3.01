@@ -151,6 +151,7 @@ Quan se segueix **ISP**:
 🚀 Endavant! Revisa la interfície, aplica el principi **ISP** i refactoritza amb elegància.
 
 ❓ **La teva interfície fa massa coses? Quines parts podrien dividir-se?**
+***Heat i cool en AirConditionerActions, wash en WashingMachineActions i per últim turn on/off en MachineActions***
  
 
 
