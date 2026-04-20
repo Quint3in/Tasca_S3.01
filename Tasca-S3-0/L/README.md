@@ -187,6 +187,8 @@ Quan apliques correctament **el principi de Liskov**:
 🚀 Endavant! Revisa el codi, identifica l’error i refactoritza la jerarquia perquè compleixi el **LSP**.
 
 ❓ **Pot una subclasse ser usada en lloc de la seva superclasse sense problemes?**
+
+***Si ara apliquen el mateix comportament que la superclase.***
  
 
 
