@@ -144,4 +144,8 @@ Quan una classe té només una responsabilitat:
 🚀 Endavant! Revisa el codi, aplica el principi SRP i gaudeix del procés de refactorització.
 
 ❓ **Quantes responsabilitats té la classe?**
-
+***
+- El model d'usuari
+- Procés de registre d'usuari
+- Validació de dades d'usuari(email/password)
+- Envio d'email de confirmació validació del mateix***
