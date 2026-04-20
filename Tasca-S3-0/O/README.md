@@ -125,4 +125,5 @@ Quan un sistema està ben dissenyat segons **OCP**:
 
 ❓ **Ets capaç d’afegir un nou producte sense canviar el codi?** 
 
+***Sí, amb una clase nova que implementi Instrument i sobreescrivint el mètode***
 
