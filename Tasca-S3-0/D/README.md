@@ -139,6 +139,17 @@ Quan segueixes **DIP**:
 🚀Endavant! Refactoritza amb el principi DIP en ment i millora l’estructura del teu codi.
 
 ❓ **Depens de classes concretes? Com podries invertir aquesta dependència?**
+
+***No. La classe `ServicePerson` no depèn d'una classe
+concreta com `MySql`, sinó de l'abstracció `DataBase`.***
+
+***Aquesta dependència s'ha invertit fent que les
+implementacions concretes, com `MySql`, implementin
+la interfície `DataBase`, i injectant aquesta abstracció
+al constructor de `ServicePerson`.***
+
+***D'aquesta manera, es poden afegir altres tipus de
+bases de dades sense modificar la lògica del servei.***
  
 
 

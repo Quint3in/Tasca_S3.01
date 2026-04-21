@@ -1,7 +1,11 @@
 public class ServicePerson {
-    public void savePerson(Person person) {
-        MySql mysql = new MySql();
-        mysql.savePerson(person);
+    private DataBase bbdd;
+
+    public ServicePerson(DataBase bbdd) {
+        this.bbdd = bbdd;
     }
 
+    public void savePerson(Person person) {
+        bbdd.savePerson(person);
+    }
 }
